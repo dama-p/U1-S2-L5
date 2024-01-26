@@ -1,0 +1,149 @@
+*,
+* ::before,
+* ::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+  text-align: center;
+}
+
+main a {
+  color: #0e5c72;
+  font-weight: bold;
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header a,
+.topbar a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  background-color: #222f3f;
+  height: auto;
+  text-align: left;
+}
+
+.logo {
+  display: inline-block;
+  width: 8vw;
+  margin: 10px 0px 10px 40px;
+}
+
+nav {
+  background-color: #36485a;
+  height: auto;
+  padding: 10px 10px 10px 40px;
+  word-spacing: 15px;
+}
+
+main {
+  max-width: 90%;
+  margin-inline: auto;
+}
+
+.topbar {
+  background-color: #f56700;
+  text-align: center;
+  margin-block: 4vh;
+  padding: 10px;
+}
+
+.holiday {
+  background-image: url(/assets/images/bg-image.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+  text-align: center;
+  height: 20vh;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  top: 35%;
+}
+
+h3 {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  margin-block: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.title1 {
+  font-size: 22px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.carousel {
+  width: 20%;
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 20px;
+  box-shadow: 11px 13px 27px -5px rgba(0, 0, 0, 0.361);
+  height: 300px;
+  margin-inline: 20px;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  text-align: center;
+}
+
+.titles {
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+.banner {
+  margin-bottom: 30px;
+}
+
+.banner img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.footernav {
+  background-color: #36485a;
+  color: white;
+  padding: 2vh;
+}
+
+.footernav a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.bottompage {
+  background-color: #222f3f;
+}
+
+.bottompage img {
+  width: 150px;
+  margin-block: 5%;
+}
