@@ -12,7 +12,7 @@ REGOLE
 */
 const pets = ["dog", "cat", "hamster", "redfish"];
 
-for (i = 0; i < pets.length; i++) {
+for (let i = 0; i < pets.length; i++) {
   console.log(pets[i]);
 }
 
@@ -63,7 +63,7 @@ const cars = [
 
 let licensePlate = "targa auto";
 
-for (i = 0; i < cars.length; i++) {
+for (let i = 0; i < cars.length; i++) {
   cars[i].licensePlate = licensePlate;
 }
 
@@ -83,7 +83,7 @@ let newCarObj = {
 
 cars.push(newCarObj);
 
-for (i = 0; i < cars.length; i++) {
+for (let i = 0; i < cars.length; i++) {
   cars[i].trims.pop();
 }
 
@@ -95,7 +95,7 @@ console.log(cars);
 
 const justTrims = [];
 
-for (i = 0; i < cars.length; i++) {
+for (let i = 0; i < cars.length; i++) {
   justTrims.push(cars[i].trims[0]);
 }
 
@@ -106,7 +106,7 @@ console.log(justTrims);
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
-for (i = 0; i < cars.length; i++) {
+for (let i = 0; i < cars.length; i++) {
   if (cars[i].color.startsWith("b") === true) {
     console.log("Fizz");
   } else console.log("Buzz");
@@ -136,7 +136,7 @@ const charactersArray = ["g", "n", "u", "z", "d"];
 
 const charactersPosition = [];
 
-for (i = 0; i < charactersArray.length; i++) {
+for (let i = 0; i < charactersArray.length; i++) {
   switch (charactersArray[i]) {
     case "a":
       charactersPosition.push(1);
